@@ -1,0 +1,7 @@
+# Node.js
+my-backend/node_modules/
+my-backend/.env
+
+# React
+my-frontend/node_modules/
+my-frontend/build/
