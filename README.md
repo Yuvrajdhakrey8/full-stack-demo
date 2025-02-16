@@ -1,4 +1,3 @@
-```markdown name=README.md
 # Full Stack Demo Application
 
 This is a full stack demo application using the MERN stack (MongoDB, Express, React, Node.js) with TypeScript for both frontend and backend.
@@ -37,7 +36,7 @@ full-stack-demo/
 
 5. **Install dependencies**:
 
-   npm install axios react-router-dom
+   npm install axios react-router-dom yup @hookform/resolvers react-hook-form react-hot-toast @mui/icons-material @mui/styles @mui/material
 
 6. **Run the development server**:
 
@@ -59,7 +58,7 @@ full-stack-demo/
 
 4. **Install dependencies**:
 
-   npm install express dotenv cors
+   npm install express dotenv cors mongoose
 
 5. **Install TypeScript and type definitions**:
 
@@ -93,17 +92,15 @@ full-stack-demo/
 
 3. **Create a `.gitignore` file**:
 
-plaintext name=.gitignore
+   # Node.js
 
-# Node.js
+   my-backend/node_modules/
+   my-backend/.env
 
-my-backend/node_modules/
-my-backend/.env
+   # React
 
-# React
-
-my-frontend/node_modules/
-my-frontend/build/
+   my-frontend/node_modules/
+   my-frontend/build/
 
 4. **Add and commit your files**:
 
@@ -115,7 +112,6 @@ my-frontend/build/
    git remote add origin https://github.com/Yuvrajdhakrey8/full-stack-demo.git
 
 6. **Push your changes to the remote repository**:
-
    git push -u origin main
 
 ### Additional Tips
@@ -125,4 +121,3 @@ my-frontend/build/
 - **CI/CD**: Set up Continuous Integration/Continuous Deployment (CI/CD) pipelines to automate testing and deployment processes.
 
 By following these steps, you will successfully set up and push your frontend and backend code to your GitHub repository without conflicts.
-```
